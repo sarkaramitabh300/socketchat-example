@@ -19,7 +19,7 @@ io.on("connection", (socket) => {
   });
 });
 
-http.listen(port, () => {
+server.listen(port, () => {
   console.log(`Socket.IO server running at ${port}/`);
 });
 
